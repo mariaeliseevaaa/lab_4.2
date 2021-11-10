@@ -38,13 +38,13 @@ namespace _4._1___
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            //string a = pervoe.Text;
-            //string b = vtoroe.Text;
-            //int a1 = int.Parse(a);
-            //int b1 = int.Parse(b);
-            //int c = a1 - b1;
-            //int c1 = Convert.ToInt32(c);
-            //vivod.Content = c1;
+            string a = pervoe.Text;
+            string b = vtoroe.Text;
+            int a1 = int.Parse(a);
+            int b1 = int.Parse(b);
+            int c = a1 - b1;
+            int c1 = Convert.ToInt32(c);
+            vivod.Content = c1;
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
