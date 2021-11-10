@@ -60,13 +60,13 @@ namespace _4._1___
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            //string a = pervoe.Text;
-            //string b = vtoroe.Text;
-            //double a1 = double.Parse(a);
-            //double b1 = double.Parse(b);
-            //double c = a1/b1;
-            //double c1 = Convert.ToDouble(c);
-            //vivod.Content = c1;
+            string a = pervoe.Text;
+            string b = vtoroe.Text;
+            double a1 = double.Parse(a);
+            double b1 = double.Parse(b);
+            double c = a1 / b1;
+            double c1 = Convert.ToDouble(c);
+            vivod.Content = c1;
         }
 
         private void pervoe_TextChanged(object sender, TextChangedEventArgs e)
