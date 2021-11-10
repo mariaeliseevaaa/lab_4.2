@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="44*"/>
+            <RowDefinition Height="377*"/>
+        </Grid.RowDefinitions>
+        <Button Content="+" HorizontalAlignment="Left" Height="32" Margin="166,245.5,0,0" VerticalAlignment="Top" Width="35" Click="Button_Click" Grid.Row="1"/>
+        <Button Content="-" HorizontalAlignment="Left" Height="32" Margin="237,246,0,0" VerticalAlignment="Top" Width="35" Click="Button_Click_1" Grid.Row="1"/>
+        <Button Content="x" HorizontalAlignment="Left" Height="32" Margin="311,246,0,0" VerticalAlignment="Top" Width="32" Click="Button_Click_2" Grid.Row="1" RenderTransformOrigin="1.188,0.38"/>
+        <Button Content="/" HorizontalAlignment="Left" Height="32" Margin="374,246,0,0" VerticalAlignment="Top" Width="34" Click="Button_Click_3" Grid.Row="1"/>
+        <TextBox x:Name="pervoe" HorizontalAlignment="Left" Height="28" Margin="166,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66" Grid.Row="1" TextChanged="pervoe_TextChanged"/>
+        <TextBox x:Name="vtoroe" HorizontalAlignment="Left" Height="28" Margin="237,182,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" TextChanged="vtoroe_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Height="28" Margin="315,182,0,0" Grid.Row="1" TextWrapping="Wrap" Text="=" VerticalAlignment="Top" Width="28"/>
+        <Label x:Name="vivod" Content="" HorizontalAlignment="Left" Height="28" Margin="348,182,0,0" Grid.Row="1" VerticalAlignment="Top" Width="79"/>
+
     </Grid>
 </Window>
