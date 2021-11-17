@@ -19,6 +19,7 @@
         <TextBox x:Name="vtoroe" HorizontalAlignment="Left" Height="28" Margin="237,182,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" TextChanged="vtoroe_TextChanged"/>
         <TextBlock HorizontalAlignment="Left" Height="28" Margin="315,182,0,0" Grid.Row="1" TextWrapping="Wrap" Text="=" VerticalAlignment="Top" Width="28"/>
         <Label x:Name="vivod" Content="" HorizontalAlignment="Left" Height="28" Margin="348,182,0,0" Grid.Row="1" VerticalAlignment="Top" Width="79"/>
+        <Button Content="^" HorizontalAlignment="Left" Height="32" Margin="427,246,0,0" Grid.Row="1" VerticalAlignment="Top" Width="37" Click="Button_Click_4"/>
 
     </Grid>
 </Window>

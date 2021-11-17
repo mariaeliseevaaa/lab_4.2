@@ -72,11 +72,23 @@ namespace _4._1___
         private void pervoe_TextChanged(object sender, TextChangedEventArgs e)
         {
 
+
         }
 
         private void vtoroe_TextChanged(object sender, TextChangedEventArgs e)
         {
 
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            string a = pervoe.Text;
+            string b = vtoroe.Text;
+            double a1 = double.Parse(a);
+            double b1 = double.Parse(b);
+            double c = Math.Pow (a1, b1);
+            double c1 = Convert.ToDouble(c);
+            vivod.Content = c1;
         }
     }
 }
